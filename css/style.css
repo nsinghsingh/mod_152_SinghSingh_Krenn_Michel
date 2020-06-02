@@ -3,7 +3,8 @@
 }
 html, body {
     width: 100%;
-    height: fit-content;
+    min-height: fit-content;
+    height: 100%;
     padding: 0;
     margin: 0;
 }
@@ -11,13 +12,13 @@ p {
     font-family: 'Special Elite', cursive;
 }
 .background {
+    min-height: 1800px;
     display: flex;
     flex-direction: column;
     padding: 0 6%;
     align-items: center;
     background: url("../media/images/blackbackground.jpg");
     color: white;
-    min-height: 1800px;
 }
 .coas{
     margin: 50px 0;
@@ -61,21 +62,20 @@ p {
 }
 .monster{
     flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
 }
 .monster-info{
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    max-width: 250px;
+    min-width: 150px;
 }
 .monster-img{
-
+    height: 100%;
+    width: 100%;
 }
 .monster-text{
-    width: 0;
-    height: 0;
-    margin: 0;
 }
 .monster-name{
     font-size: 1.5em;
