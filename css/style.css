@@ -70,12 +70,20 @@ p {
 .monster-info{
     max-width: 250px;
     min-width: 150px;
+    position: relative;
+    background: black;
 }
 .monster-img{
     height: 100%;
     width: 100%;
 }
 .monster-text{
+    position: absolute;
+    color: white;
+    top: 5px;
+    left: 5px;
+    visibility: hidden;
+    margin: 10px;
 }
 .monster-name{
     font-size: 1.5em;
