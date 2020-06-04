@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    min-height: fit-content;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+p {
+    font-family: 'Special Elite', cursive;
+}
+.background {
+    min-height: 1800px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 6%;
+    align-items: center;
+    background: url("../media/images/blackbackground.jpg");
+    color: white;
+}
+.coas{
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    margin: 20px 0;
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+.logo{
+    margin: 20px 0;
+    max-height: 128px;
+    max-width: 128px;
+    color: white;
+}
+.text-block{
+    margin: 50px 0;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    border: 1px white;
+    border-style: dashed;
+}
+.info-title, .danger-name{
+    font-size: 2em;
+    text-align: center;
+}
+.header{
+    font-size: 2.5em;
+}
+.monsters {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.monster{
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.monster-info{
+    max-width: 250px;
+    min-width: 150px;
+    position: relative;
+    background: black;
+}
+.monster-img{
+    height: 100%;
+    width: 100%;
+}
+.monster-text{
+    position: absolute;
+    color: white;
+    top: 5px;
+    left: 5px;
+    visibility: hidden;
+    margin: 10px;
+}
+.monster-name{
+    font-size: 1.5em;
+    text-align: center;
+}
