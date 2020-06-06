@@ -21,27 +21,26 @@ p {
     background-size: contain;
     color: white;
 }
-.coas{
-    margin: 50px 0;
+.monster-title {
     display: flex;
-    flex-direction: column;
+    flex-flow: row;
     align-items: center;
+    justify-content: center;
 }
-.title{
-    margin: 20px 0;
+.monster-name{
+    margin: 20px;
     font-size: 3em;
-    text-align: center;
     font-family: 'Comfortaa', cursive;
 }
-.logo{
-    margin: 20px 0;
+.monster-img{
+    margin: 20px;
     max-height: 128px;
     max-width: 128px;
     color: white;
 }
 .text-block{
     margin: 50px 0;
-    padding: 10px;
+    padding: 10px 10px 25px;
     width: 100%;
     height: fit-content;
     text-align: center;
@@ -53,46 +52,30 @@ p {
     font-size: 2em;
     text-align: center;
 }
+audio {
+    width: 80%;
+    min-width: 250px;
+    max-width: 700px;
+}
+video, iframe{
+    width: 80%;
+    max-width: 900px;
+    min-width: 250px;
+}
+iframe {
+    height: 400px;
+}
 .header{
     font-size: 2.5em;
 }
-.monsters {
+.gallery {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 20px;
 }
-.monster{
-    flex-basis: 30%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px;
-    color: white;
-    text-decoration: none;
-}
-.monster-info{
-    max-width: 250px;
-    min-width: 150px;
-    min-height: fit-content;
-    position: relative;
-    background: black;
-    overflow: hidden;
-}
-.monster-img{
-    height: 100%;
-    width: 100%;
-}
-.monster-text{
-    position: absolute;
-    color: white;
-    top: 5px;
-    left: 5px;
-    visibility: hidden;
-    margin: 10px;
-}
-.monster-name{
-    font-size: 1.5em;
-    text-align: center;
+.sample{
+    margin: 2px;
 }
