@@ -69,6 +69,8 @@ p {
     flex-direction: column;
     align-items: center;
     margin: 10px;
+    color: white;
+    text-decoration: none;
 }
 .monster-info{
     max-width: 250px;
@@ -76,6 +78,7 @@ p {
     min-height: fit-content;
     position: relative;
     background: black;
+    overflow: hidden;
 }
 .monster-img{
     height: 100%;
